@@ -1,0 +1,17 @@
+{
+  "name": "bedrock-samples",
+  "version": "1.0.0",
+  "description": "Repository Containing sample code to execute/call AWS Bedrock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-agent-runtime": "^3.470.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.470.0",
+    "@aws-sdk/client-dynamodb": "^3.470.0",
+    "langchain": "^0.0.204"
+  }
+}
